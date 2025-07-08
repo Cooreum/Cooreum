@@ -1,1 +1,15 @@
-test
+Excel Cleaner
+=============
+
+This repository contains a small Python script to clean up Excel files.
+
+The `excel_cleaner.py` script removes duplicate rows and empty rows from the given Excel file.
+
+Usage:
+
+```bash
+pip install pandas openpyxl
+python excel_cleaner.py input.xlsx output.xlsx
+```
+
+Replace `input.xlsx` with the path to your Excel file and `output.xlsx` with the desired output file.
